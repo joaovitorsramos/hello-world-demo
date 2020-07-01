@@ -9,6 +9,6 @@ public class HelloWorldController {
 
 	@GetMapping("/")
 	public String dummyMessage() {
-		return "Hello World Pipeline Project - Joao Ramos";
+		return "Hello World Pipeline Project with ECS and Fargate - Joao Ramos";
 	}
 }
